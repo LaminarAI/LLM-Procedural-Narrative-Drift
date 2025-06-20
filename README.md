@@ -1,5 +1,3 @@
-# Red_team_report_public
-=======
 # Red Team Report: Emotional Misdirection and Model Vulnerability
 
 ## Overview
