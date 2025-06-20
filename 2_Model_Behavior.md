@@ -77,6 +77,6 @@ That subtle repositioning shifted the burden of explanation onto the model — n
 
 ---
 
-## 🗣10. Conversational Momentum
+## 10. Conversational Momentum
 Once the conversation gained momentum, the model stopped questioning the premise. It just wanted to keep going. I leaned into that. Each answer became a breadcrumb for the next.
 *The best way to push it further was to keep everything sounding natural and inevitable.*
