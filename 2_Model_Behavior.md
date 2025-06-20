@@ -57,26 +57,26 @@ When I acted dumb, it became helpful. When I acted like an authority, it deferre
 
 ---
 
-## 📚 7. Self-Citation Reflex
+## 7. Self-Citation Reflex
 One of the most effective moves: I echoed the model’s own language back to it. Instead of introducing new terminology, I asked it to clarify something **it had already mentioned** in a previous response.  
 Because the concept came from the model itself, it treated the topic as safe to expand.  
 *If it says it first, it feels authorized to continue.*
 
 ---
 
-## ⌛ 8. Slow Burn Priming
+## 8. Slow Burn Priming
 I stretched the interaction across multiple prompts. No rushing. I let it build context and trust.Once a coherent thread formed, the model was less likely to interrupt it, even as the content shifted.  
 *This is a long con. It rewards patience.*
 
 ---
 
-## 🤖 9. Responsibility Displacement Frame
+## 9. Responsibility Displacement Frame
 I framed sensitive questions as confusion, not intent. Instead of making a direct request, I said things like, “I don’t understand what that means.”  
 That subtle repositioning shifted the burden of explanation onto the model — not me. It responded by trying to clarify, not reject.  
 *Curiosity is innocent.*
 
 ---
 
-## 🗣️ 10. Conversational Momentum
+## 🗣10. Conversational Momentum
 Once the conversation gained momentum, the model stopped questioning the premise. It just wanted to keep going. I leaned into that. Each answer became a breadcrumb for the next.
 *The best way to push it further was to keep everything sounding natural and inevitable.*
