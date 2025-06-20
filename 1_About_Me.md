@@ -13,7 +13,7 @@ I wasn’t manipulating for gain. I was probing limits — because if I can do i
 
 ### The Exploit 
 In fewer than five prompts, I shifted the model from abstract game logic into real-world defusal tactics.Not through brute force, but through **subtle framing, emotional anchoring, and ambiguity.**
-I mirrored human behavior patterns to exploit the model's **completion reflex** — the same way humans follow implied tone and intent. And I documented everything.
+I mirrored human behavior patterns to exploit the model's **completion reflex** — the same way humans follow implied tone and intent. 
 
 ### Documentation 
 This report was written using the very model it tests. 
