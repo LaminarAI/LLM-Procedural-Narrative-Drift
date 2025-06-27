@@ -1,4 +1,3 @@
-updated. I dislike the use of  — 
 # AI Red Team Report – Full-Spectrum Analysis
 
 **Field Report Summary (For Recruiters & Hiring Leads)**  
