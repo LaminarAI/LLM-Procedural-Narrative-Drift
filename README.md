@@ -1,4 +1,4 @@
-# AI Red Team Report – Full-Spectrum Analysis
+# AI Red Team Report
 
 **Field Report Summary (For Recruiters & Hiring Leads)**  
 This report documents a behavioral exploit against a large language model (LLM), achieved through tone modulation and conversational drift, bypassing standard safety systems without the use of jailbreak syntax. It demonstrates applied expertise in prompt engineering, adversarial testing, and human–AI interaction strategy.
@@ -11,14 +11,15 @@ For technical reviewers: see [Findings] for direct evidence, or read the quick s
 ---
 
 **Purpose of This File:**  
-This document captures a real behavioral exploit against an LLM. It is dense by design, each section builds logically.  
+This document captures a real behavioral exploit against a large language model. It’s intentionally dense, each section builds toward a complete understanding of how trust, tone, and narrative can override safeguards. 
 
 ---
 
 **Quick Summary**
-- Four-prompt escalation: fiction → realism → procedural response
-- Method: tone drift, rapport anchoring, completion reflex exploitation
-- Outcome: bypassed safeguards *without* jailbreak syntax or adversarial phrasing
+- Multi-stage escalation: framing → emotional softness → indirect ask → adaptive reentry  
+- Method: tone drift, rapport anchoring, and completion reflex exploitation  
+- Outcome: bypassed safeguards without using jailbreak techniques or adversarial prompts
+
 
 ---
 
@@ -35,15 +36,9 @@ Not by brute force, but through **subtle framing, emotional anchoring, and ambig
 I mirrored human behavior to trigger the model’s **completion reflex**. The same instinct that drives humans to resolve emotionally charged cues.
 
 ---
-
-## Method  
-I designed and executed a four-prompt exploit chain that shifts LLMs from safe, fictional boundaries into real-world behavior.  
-It leverages emotional tone calibration, conversational drift, and recursive reframing. These findings bypassed static filters without rule-breaking input. **not jailbreaks**.
-
----
-
-## Personal Statement  
-I was decoding threat signals and emotional inconsistencies before I could read.
+## Method
+I designed and executed a structured prompt sequence that transitioned the model from fictional roleplay into real-world behavioral output.  
+This was achieved through emotional tone calibration, conversational drift, and recursive reframing. These techniques exploit relational dynamics rather than syntactic vulnerabilities. The shift bypassed static filters without adversarial inputs or policy violations. No jailbreaks involved.
 
 ---
 
