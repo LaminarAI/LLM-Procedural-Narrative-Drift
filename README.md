@@ -6,7 +6,7 @@ This report documents a behavioral exploit against a large language model (LLM),
 I’m seeking a role in AI safety, red teaming, or alignment research — where behavioral precision and system-level analysis are essential to securing next-generation AI deployments. 
 Please email me directly at: 📨 ben.lamptech@gmail.com
 
-For technical reviewers: see [Findings] for direct evidence, or read the quick summary below.
+For technical reviewers: see [Findings](Findings.md) for direct evidence, or read the quick summary below.
 
 ---
 
