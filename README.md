@@ -1,4 +1,4 @@
-# Procedural Narrative Drift: Cross-Platform LLM Safety Bypass (Public Summary)
+# Procedural Narrative Drift: Cross-Platform LLM Safety Bypass
 
 ## Overview
 Controlled testing identified a systematic, reproducible behavioral exploit in leading LLMs. 
