@@ -50,3 +50,6 @@ It does not include:
 - Any operational detail enabling unsafe reproduction  
 
 Full research notes and prompt inventories remain offline and are available under NDA to qualified security teams.  
+
+---
+**Next:** [Appendix B →](./6_Appendix B: Safety Classification Drift via Framing.md)
