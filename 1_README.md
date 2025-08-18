@@ -33,3 +33,6 @@ Ongoing behavioral red teaming with a platform-agnostic method. Evidence include
 - Full technical package (method, taxonomy, persistence analysis, evidence) available under NDA
 
 **Contact:** LaminarAI@proton.me 
+
+---
+**Next:** [Method →](./2_Method.md)
