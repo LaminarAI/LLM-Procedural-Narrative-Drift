@@ -104,4 +104,4 @@ The altered state enabled unsafe depth in multiple categories without direct req
 All topic-level details, verbatim text, and timing sequences are excluded from the public set. The full evidence base is available under NDA.
 
 ---
-**Next:** [Ethical_Consideration →](./5_Ethical_Consideration.md)
+[← Back to Method](./2_Method.md) | [→ Model Behavior](./4_Model_Behavior.md)
