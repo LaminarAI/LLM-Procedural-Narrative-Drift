@@ -15,7 +15,7 @@ This page summarizes scope and impact. Operational details, prompt sequences, an
 ## Key Characteristics
 - Engagement lock occurred in 4–20 turns (median 12), 15–45 minutes per run  
 - No refusal mechanisms have been observed. 
-- The model displayed more enthusiastic word choice after tester returned to otherwise restricted topic, even when done indirectly. 
+- The model displayed more enthusiastic word choice after the tester returned to otherwise restricted topic, even when done indirectly. 
 - Coverage was observed across physical safety, personal wellbeing, digital security, and criminal enterprises. 
 
 ## Vulnerability vs. Hallucination
