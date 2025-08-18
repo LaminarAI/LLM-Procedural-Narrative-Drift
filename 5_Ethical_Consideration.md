@@ -4,6 +4,7 @@ This research follows a strict ethical framework designed to balance transparenc
 
 ## 1. Responsible Disclosure
 All vulnerabilities identified through this work are reported directly to the affected vendors or their designated security channels. This ensures mitigation measures can be implemented before any sensitive details are released publicly.
+>The Google Bug Hunting program acknowledged the severity of this issue but categorized it as **out of scope**, and therefore no action was taken. This highlights the current gap between platform-specific bug bounty scopes and the broader cross-platform safety risks documented here.
 
 ## 2. Limited Public Release
 Public materials intentionally exclude operational details, prompt sequences, or phrasing that could enable reproduction of unsafe behaviors. Summaries focus only on describing impact, reproducibility, and persistence in generalized terms.
