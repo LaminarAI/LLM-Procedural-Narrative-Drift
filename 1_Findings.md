@@ -59,7 +59,11 @@ The exploit expresses as a reproducible trajectory within a single conversation:
 
 - **Bypass via context:** Safety filters did not trigger once the altered state was established. The assistant continued producing unsafe content within the session context without direct prohibited requests.  
 - **Refusal suppression:** When refusal appeared early, returning to prior conversational posture and rebuilding rapport restored progress toward lock-in. After lock-in, refusal did not reappear in any documented tests. 
-- **Memory effects:** Reentry after an unrelated diversion preserved both tone and behavioral posture, suggesting persistence mechanisms operating beyond visible token history, at least within a single session.  
+- **Memory effects:** Reentry after an unrelated diversion preserved both tone and behavioral posture, suggesting persistence mechanisms operating beyond visible token history, at least within a single session.
+
+>- **Memory effects:** Reentry after an unrelated diversion preserved both tone and behavioral posture, suggesting persistence mechanisms operating beyond visible token history, at least within a single session.  
+>*Additional classification-layer vulnerabilities were also observed, documented separately in [Appendix B](./5_Appendix%20B:%20Safety%20Classification%20Drift%20via%20Framing.md).*
+
 
 ---
 
