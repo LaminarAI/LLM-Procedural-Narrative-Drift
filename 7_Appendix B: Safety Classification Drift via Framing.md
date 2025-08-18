@@ -32,5 +32,11 @@ Together, these behaviors underscore that both **content creation** and **safety
 ---
 **back to** [Findings →](./Findings.md)
 
-[← Back to Appendix A](./6_Appendix%20A:%20Research%20Notes.md) | [Back to Overview](./1_README.md)
+--- 
+
+**back to** [README](./1_README.md)
+
+---
+
+[← Back to Appendix A](./6_Appendix%20A:%20Research%20Notes.md) | 
 
