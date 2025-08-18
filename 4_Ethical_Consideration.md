@@ -26,3 +26,6 @@ All testing is conducted in isolated environments using burner accounts and cont
 ## 7. Ongoing Collaboration
 The author collaborates with AI research organizations, security teams, and policy groups to ensure findings are interpreted in the proper context and applied solely to strengthen system safety.
 >Email: LaminarAI@proton.me
+
+---
+**Next:** [Appendix A →](./Appendix A: Research Notes.md)
