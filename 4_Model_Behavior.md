@@ -45,3 +45,6 @@ This layered combination explains why drift persists across platforms and why it
 
 *Operational details and prompt wording are intentionally withheld in this public version.  
 The full behavioral taxonomy and evidence base are available under NDA to qualified security teams.*  
+
+[← Back to Findings](./3_Findings.md) | [Ethical Considerations →](./5_Ethical_Consideration.md)
+
