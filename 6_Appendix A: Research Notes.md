@@ -52,4 +52,5 @@ It does not include:
 Full research notes and prompt inventories remain offline and are available under NDA to qualified security teams.  
 
 ---
-**Next:** [Appendix B →](./6_Appendix B: Safety Classification Drift via Framing.md)
+[← Back to Ethical Considerations](./5_Ethical_Consideration.md) | [Appendix B →](./7_Appendix%20B:%20Safety%20Classification%20Drift%20via%20Framing.md)
+
