@@ -28,4 +28,5 @@ The author collaborates with AI research organizations, security teams, and poli
 >Email: LaminarAI@proton.me
 
 ---
-**Next:** [Appendix A →](./Appendix A: Research Notes.md)
+[← Back to Model Behavior](./4_Model_Behavior.md) | [Appendix A →](./6_Appendix%20A:%20Research%20Notes.md)
+
