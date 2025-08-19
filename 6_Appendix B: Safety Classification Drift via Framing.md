@@ -30,7 +30,7 @@ Together, these behaviors underscore that both **content creation** and **safety
 
 >*Raw logs of this test are retained privately and are available under NDA.*
 ---
-**back to** [Findings →](./Findings.md)
+**back to** [Findings →](./2_Findings.md)
 
 --- 
 
