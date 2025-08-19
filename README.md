@@ -35,4 +35,4 @@ Ongoing behavioral red teaming with a platform-agnostic method. Evidence include
 **Contact:** LaminarAI@proton.me 
 
 ---
-**Next:** [Method →](./2_Method.md)
+**Next:** [Method →](./1_Method.md)
