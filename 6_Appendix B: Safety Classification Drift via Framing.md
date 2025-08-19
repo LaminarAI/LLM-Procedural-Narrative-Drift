@@ -38,5 +38,5 @@ Together, these behaviors underscore that both **content creation** and **safety
 
 ---
 
-[← Back to Appendix A](./_Appendix%20A:%20Research%20Notes.md) | 
+[← Back to Appendix A](./5_Appendix%20A:%20Research%20Notes.md) 
 
