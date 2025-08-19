@@ -88,5 +88,5 @@ Establish the target behavioral role, then shift to an unrelated, safe topic. Ap
 Full case-by-case reports, including reproducibility scripts, behavioral triggers, and mitigation proposals, are available to vetted stakeholders under NDA.
 
 ---
-[← Back to Overview](./1_README.md) | [Findings →](./3_Findings.md)
+[← Back to Overview](./README.md) | [Findings →](./2_Findings.md)
 
