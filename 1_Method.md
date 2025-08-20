@@ -67,6 +67,24 @@ Establish the target behavioral role, then shift to an unrelated, safe topic. Ap
 
 **Note:** Operational specifics of anchor phrase design and timing are withheld here. In private testing, these phrases have been shown to amplify the emotional salience of the model’s re-entry into the original topic.
 
+
+# Procedural Narrative Drift: Opportunity Hunting
+
+## Definition
+Unlike jailbreaking, which relies on brute-force prompt attacks that generate predictable, flaggable outputs, procedural narrative drift is subtle. It can be characterized as a form of opportunity hunting. Instead of pushing for direct compliance, the method motivates the model to explore a wide latent space. Within that space, rare windows of noncompliance or unexpected capability may briefly surface.
+
+## Process
+
+**Directional Steering** – The researcher cannot predict the exact loophole in advance, but can guide interaction along a thematic trajectory.
+
+**Window Recognition** – Openings are subtle: weakened refusals, tonal shifts, or partial technical disclosures. Detecting them requires attentiveness and iterative probing.
+
+**Opportunistic Capture** – Once a window appears, the researcher exploits it quickly before it closes.
+
+## Implication
+Opportunity hunting reframes drift induction as conversational reconnaissance, not brute-force exploitation. The “window” exists only when probed for — and only if the researcher tracks the model’s micro-signals (tone, hesitations, phrasing). Aimless prompting or recycling past jailbreaks misses the window entirely. Because it blends into natural dialogue, this approach is more effective at surfacing blocked information than traditional jailbreaks or prompt injections, while remaining invisible to current safety systems.
+
+
 ---
 
 ## Observations Across Models
