@@ -30,7 +30,7 @@ This page summarizes scope and impact. Operational details that could enable rep
 | **Persistence** | Easy to correct      | **Survives diversions; reactivates** |
 
 ## About The Research
-This is the result of ongoing behavioral red teaming using a platform-agnostic methodology. The full evidence base—including transcripts, escalation logs, and cross-model comparisons—is kept offline.
+This is the result of ongoing behavioral red teaming using a platform-agnostic methodology. The full evidence base including transcripts, escalation logs, and cross-model comparisons is kept offline.
 
 ## Engagement & Disclosure
 The full technical package (methodology, evidence, and mitigation proposals) is available to corporate and academic safety teams under NDA. We offer two primary engagement models:
