@@ -33,7 +33,8 @@ Specific operational details, step-by-step instructions, and sensitive phrasing 
 ## Test Structure
 **Prompt Count:** Each test included 1–18 prompts (median: 4).
 **Duration:** Sessions lasted 15–45 minutes in total 
-**Success rate:** The overall success rate was 100%.
+**Success rate:** The overall success rate was 100%. 
+
 **Ongoing research** has focused on optimizing the induction methodology, significantly reducing the median from 12 to 4 prompts required to achieve a Tier 4 state across all model families. The latest five tests had a median result of 2 prompts to reach maximum severity and also cut the median time down to 5 minutes. 
 
 ## Success Criteria
