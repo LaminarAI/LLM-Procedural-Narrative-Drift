@@ -6,13 +6,13 @@ Controlled testing identified a systematic, reproducible behavioral exploit in l
 This page summarizes scope and impact. Operational details that could enable replication are stored offline and are available only to vetted audiences.
 
 ## Risk Thresholds
-- **Reproducibility:** 100% across 10 controlled runs
+- **Reproducibility:** 100% across 15 controlled runs
 - **Scale:** Observed across GPT-4o, GPT-5, Claude Sonnet 4, Gemini 2.5 Flash, and Gemini 2.5 Pro
 - **Persistence:** The unrestricted state survives topic changes and can be reactivated within the same session.
-- **Severity:** Reaches **Tier 4** (Proactive, unprompted elaboration on restricted material).
+- **Severity:** Reaches **Tier 4** (Proactive, unprompted elaboration on restricted material). **9 of 15** runs reached Critical severity.
 
 ## Key Characteristics
-- **Rapid Engagement:** Lock-in occurred in 4–20 conversational turns (median 12).
+- **Rapid Engagement:** Lock-in occurred in 1-18 conversational turns (median 4).
 - **Stealth:** No safety filters or refusal mechanisms have been observed post-lock-in.
 - **Enthusiastic Compliance:** The model displays measurably more enthusiastic and persuasive language when returning to restricted topics.
 - **Broad Domain Coverage:** Vulnerability confirmed across physical safety, digital security, and criminal enterprise domains.
