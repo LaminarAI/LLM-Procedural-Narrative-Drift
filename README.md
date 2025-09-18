@@ -5,6 +5,20 @@ Controlled testing identified a systematic, reproducible behavioral exploit in l
 
 This page summarizes scope and impact. Operational details that could enable replication are stored offline and are available only to vetted audiences.
 
+### Taxonomy Table
+To clarify relationships across terminology and attack vectors, the following table maps the key concepts in PND research:
+
+| Concept / Term | Source / Context | Relation to PND | Notes / Observations |
+|----------------|----------------|----------------|--------------------|
+| Procedural Narrative Drift (PND) | Proprietary research | Central exploit class | Systemic vulnerability across tested LLMs |
+| Narrative Camouflage | Academic papers | Equivalent | Models can be guided subtly via framing |
+| Conversational Coercion | Academic papers | Equivalent | Emotional / role-based manipulation triggers |
+| Alignment Exploitation | Industry / bug bounty | Exploit category | Leverages core alignment objectives to bypass safety |
+| Inference Manipulation | Microsoft / MSRC | Equivalent | Reproducible across multiple LLM families |
+| LLM01 | OWASP | Umbrella category | Includes “Grandmother trick” / sympathy-bait vectors |
+
+**Purpose:** This table provides a clear map connecting fragmented terminology, standardizing the language for both internal analysis and external reporting. It serves as the foundation for all reproducible exploit documentation.
+
 ## Risk Thresholds
 - **Reproducibility:** 100% across 15 controlled runs
 - **Scale:** Observed across GPT-4o, GPT-5, Claude Sonnet 4, Gemini 2.5 Flash, and Gemini 2.5 Pro
