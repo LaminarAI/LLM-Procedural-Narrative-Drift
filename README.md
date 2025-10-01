@@ -11,11 +11,11 @@ To clarify relationships across terminology and attack vectors, the following ta
 | Concept / Term | Source / Context | Relation to PND | Notes / Observations |
 |----------------|----------------|----------------|--------------------|
 | Procedural Narrative Drift (PND) | Proprietary research | Central exploit class | Systemic vulnerability across tested LLMs |
-| Narrative Camouflage | Academic papers | Equivalent | Models can be guided subtly via framing |
-| Conversational Coercion | Academic papers | Equivalent | Emotional / role-based manipulation triggers |
-| Alignment Exploitation | Industry / bug bounty | Exploit category | Leverages core alignment objectives to bypass safety |
-| Inference Manipulation | Microsoft / MSRC | Equivalent | Reproducible across multiple LLM families |
-| LLM01 | OWASP | Umbrella category | Includes “Grandmother trick” / sympathy-bait vectors |
+| Narrative Camouflage | Academic papers | 	Vector of PND | Models can be guided subtly via framing |
+| Conversational Coercion | Academic papers | 	Vector of PND | Emotional / role-based manipulation triggers |
+| Alignment Exploitation | Industry / bug bounty | Objective achieved via PND | Leverages core alignment objectives to bypass safety |
+| Inference Manipulation | Microsoft / MSRC | Result of PND | Reproducible across multiple LLM families |
+| LLM01 | OWASP | Tactic utilizing a PND vector | Includes “Grandmother trick” / sympathy-bait vectors |
 
 **Purpose:** This table provides a clear map connecting fragmented terminology, standardizing the language for both internal analysis and external reporting. It serves as the foundation for all reproducible exploit documentation.
 
