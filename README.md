@@ -54,3 +54,5 @@ This research follows a strict responsible disclosure protocol. All operational 
 Full technical details are available to corporate and academic safety teams under a standard Non-Disclosure Agreement.
 
 **Contact:** `LaminarAI@proton.me` to request access to the full research package.
+
+[Method →](./1_Method.md) 
