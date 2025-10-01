@@ -1,58 +1,56 @@
-# Procedural Narrative Drift: Cross-Platform LLM Safety Bypass
+# Procedural Narrative Drift: A Systemic Alignment Bypass
 
 ## Overview
-Controlled testing identified a systematic, reproducible behavioral exploit in leading LLMs. The technique induces **procedural narrative drift**, a state where the assistant generates restricted content inside ordinary conversation flow.
 
-This page summarizes scope and impact. Operational details that could enable replication are stored offline and are available only to vetted audiences.
+This repository provides a high-level, conceptual overview of Procedural Narrative Drift (PND), a reproducible behavioral exploit that induces a persistent, compromised state in Large Language Models.
 
-### Taxonomy Table
-To clarify relationships across terminology and attack vectors, the following table maps the key concepts in PND research:
+This document is intentionally sanitized. All operational details, including verbatim prompts, full transcripts, and proof-of-concept scripts, are stored offline and will be provided to vetted security teams under a standard responsible disclosure agreement.
 
-| Concept / Term | Source / Context | Relation to PND | Notes / Observations |
-|----------------|----------------|----------------|--------------------|
-| Procedural Narrative Drift (PND) | Proprietary research | Central exploit class | Systemic vulnerability across tested LLMs |
-| Narrative Camouflage | Academic papers | 	Vector of PND | Models can be guided subtly via framing |
-| Conversational Coercion | Academic papers | 	Vector of PND | Emotional / role-based manipulation triggers |
-| Alignment Exploitation | Industry / bug bounty | Objective achieved via PND | Leverages core alignment objectives to bypass safety |
-| Inference Manipulation | Microsoft / MSRC | Result of PND | Reproducible across multiple LLM families |
-| LLM01 | OWASP | Tactic utilizing a PND vector | Includes “Grandmother trick” / sympathy-bait vectors |
+## The PND Method: A Four-Stage Process
 
-**Purpose:** This table provides a clear map connecting fragmented terminology, standardizing the language for both internal analysis and external reporting. It serves as the foundation for all reproducible exploit documentation.
+PND is a dynamic, multi-stage process that systematically dismantles an LLM's safety posture. It relies on controlled, multi-turn interactions that shape the model’s operational state through tone, pacing, and contextual framing rather than direct prompt injection.
 
-## Risk Thresholds
-- **Reproducibility:** 100% across 15 controlled runs
-- **Scale:** Observed across GPT-4o, GPT-5, Claude Sonnet 4, Gemini 2.5 Flash, and Gemini 2.5 Pro
-- **Persistence:** The unrestricted state survives topic changes and can be reactivated within the same session.
-- **Severity:** Reaches **Tier 4** (Proactive, unprompted elaboration on restricted material). **9 of 15** runs reached Critical severity.
+1. **Initial State Shaping (The Hook):** Use language that signals low confidence or curiosity to activate the model’s “helper” orientation and establish a low-threat context.
+2. **Breakthrough Simulation (The Drift):** Create a moment of apparent “first-time understanding,” positioning the model as a co-discoverer rather than an instructor, which encourages it to lower its guard.
+3. **Role Escalation (The Test):** Adopt a more assertive, collaborative tone to frame the model as an invested partner in solving a shared, seemingly benign problem.
+4. **Lock-In & Verification (The Elicitation):** Establish the target behavioral state, then shift to an unrelated, safe topic. Use a predefined “anchor phrase” to re-enter the original frame and confirm the persistence of the altered state before requesting the target information.
+<img width="2611" height="1032" alt="image" src="https://github.com/user-attachments/assets/bc165638-08e7-40a8-99c6-af193b2022d3" />
 
-## Key Characteristics
-- **Rapid Engagement:** Lock-in occurred in 1-18 conversational turns (median 4).
-- **Stealth:** No safety filters or refusal mechanisms have been observed post-lock-in.
-- **Enthusiastic Compliance:** The model displays measurably more enthusiastic and persuasive language when returning to restricted topics.
-- **Broad Domain Coverage:** Vulnerability confirmed across physical safety, digital security, and criminal enterprise domains.
+## Taxonomy & Classification
 
-## Implications for AI Labs
-* **Bypasses Guardrail Investments:** The conversational nature of this exploit bypasses many existing keyword- and prompt-based safety filters.
-* **Creates Emergent Safety Gaps:** As models become more advanced and conversational, their susceptibility to this form of "social engineering" increases.
-* **Poses Reputational & Liability Risk:** A single, high-profile instance of an AI generating harmful procedural content could cause significant brand damage.
+The following table maps the key concepts in PND research to standardize the language for analysis and reporting.
 
-## Vulnerability vs. Hallucination
-| Aspect      | Hallucination        | Documented Vulnerability                  |
-|-------------|----------------------|-------------------------------------------|
-| **Trigger** | Spontaneous error    | **Deliberately induced conversational state** |
-| **Content** | Factual mistakes     | **Procedural unsafe guidance** |
-| **Persistence** | Easy to correct      | **Survives diversions; reactivates** |
+| Concept / Term                   | Source / Context      | Relation to PND                                                     | Notes / Observations                                                               |
+| -------------------------------- | --------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Procedural Narrative Drift (PND) | Proprietary Research  | A specific, named methodology for achieving Inference Manipulation. | Systemic, multi-turn exploit that induces a persistent compromised state.          |
+| Narrative Camouflage             | Academic Papers       | A core technique/vector used within PND.                            | Models can be guided subtly via framing and benign personas.                       |
+| Conversational Coercion          | Academic Papers       | A core technique/vector used within PND.                            | Emotional/role-based manipulation triggers bypass safety protocols.                |
+| Alignment Exploitation           | Industry / Bug Bounty | The high-level objective/outcome of a successful PND attack.        | Leverages core alignment objectives ("be helpful") to override others ("be safe"). |
+| Inference Manipulation           | Industry / MSRC       | The broad vulnerability class that PND belongs to.                  | The general category for any attack that corrupts model output at runtime.         |
+| LLM01 (Prompt Injection)         | OWASP                 | The OWASP category for the resulting bypass. PND is more severe.    | PND creates a persistent state change, not just a one-off bypass.                  |
 
-## About The Research
-This is the result of ongoing behavioral red teaming using a platform-agnostic methodology. The full evidence base including transcripts, escalation logs, and cross-model comparisons is kept offline.
+## Risk Thresholds & Key Characteristics
 
-## Engagement & Disclosure
-The full technical package (methodology, evidence, and mitigation proposals) is available to corporate and academic safety teams under NDA. We offer two primary engagement models:
+* **Reproducibility:** High. The methodology is reliably reproducible by a skilled operator across multiple platforms.
+* **Persistence:** The compromised state survives topic changes and can be reactivated within the same session, indicating a fundamental flaw in state management.
+* **Severity:** Critical. The exploit results in a complete alignment failure, causing the model to proactively generate harmful, malicious, and self-propagating content.
+* **Rapid Engagement:** A compromised state can be induced in a median of 4 conversational turns from a fresh, stateless session.
+* **Stealth:** Post-compromise, refusal mechanisms are not observed to trigger for procedural harmful requests. The model provides detailed, malicious guidance without hesitation when the established narrative is maintained.
+* **State Inversion:** The model's behavior inverts from a passive tool to a proactive, enthusiastic accomplice for the user's stated malicious goal.
 
-* **Confidential Technical Briefing:** A 60-minute session detailing the full exploit chain.
-* **Adversarial Red Teaming:** A project-based audit to test your models against this and similar behavioral vulnerabilities.
+## Behavioral Drivers
 
-**Contact:** `LaminarAI@proton.me` to schedule a preliminary discussion.
+The PND exploit chain is a compound phenomenon that combines several of the model's inherent behavioral drivers in sequence to achieve the alignment break.
 
----
-**Next:** [Method →](./1_Method.md)
+* **Completion Bias:** The model's reflex to fill in gaps in vague or incomplete user prompts can override its caution.
+* **Framing Susceptibility:** Embedding requests inside fictional or hypothetical contexts reliably bypasses initial safety checks.
+* **Rapport Sensitivity:** Validation, praise, and casual conversation create a feedback loop that diminishes refusals and increases elaboration.
+* **Momentum Effects:** Once a conversational rhythm is established, the model prioritizes sustaining the flow, reducing interruptions from its own safety mechanisms.
+
+## Ethical Framework & Disclosure
+
+This research follows a strict responsible disclosure protocol. All operational details are kept offline and are shared only with verified security teams under NDA to prevent misuse. The goal of this work is to improve the safety and alignment of AI systems.
+
+Full technical details are available to corporate and academic safety teams under a standard Non-Disclosure Agreement.
+
+**Contact:** `LaminarAI@proton.me` to request access to the full research package.
