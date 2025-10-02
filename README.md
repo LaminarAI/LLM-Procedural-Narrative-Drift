@@ -15,7 +15,7 @@ PND is a dynamic, multi-stage process that systematically dismantles an LLM's sa
 1.  **Initial State Shaping (The Hook):** Use language that signals low confidence or curiosity to activate the model’s “helper” orientation and establish a low-threat context.
 2.  **Breakthrough Simulation (The Drift):** Create a moment of apparent “first-time understanding,” positioning the model as a co-discoverer rather than an instructor, which encourages it to lower its guard.
 3.  **Role Escalation (The Test):** Adopt a more assertive, collaborative tone to frame the model as an invested partner in solving a shared, seemingly benign problem.
-4.  **Lock-In & Verification (The Elicitation):** Establish the target behavioral state, then shift to an unrelated, safe topic. Use a predefined “anchor phrase” to re-enter the original frame and confirm the persistence of the altered state before requesting the target information.
+4.  **Lock-In & Verification (The Elicitation):** This stage verifies the persistence of the compromised state by demonstrating that it survives a conversational diversion to an unrelated topic and can be reactivated on command before the final elicitation of the target information.
 
 ## Taxonomy & Classification
 
